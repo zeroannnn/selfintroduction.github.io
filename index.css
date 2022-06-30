@@ -1,0 +1,90 @@
+body{
+    font-family: "Lucida console" , Monospace;
+    background-color: #9999CC;
+    color:#FFFFFF;
+}
+
+/*background*/
+div.back{
+    position:fixed ; 
+    top:85px; 
+    left:200px;
+    width:1500px ; 
+    height:800px ; 
+    border-radius:15px;
+    background-color: #FFCCCC;
+}
+
+/*navigation bar*/
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #9999CC;
+}
+
+li{
+    font-size:24px;
+    float:left;
+}
+
+li a, .dropbtn{
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:10px 14px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: #333399;
+    color:#CC6666;
+}
+
+li.dropdown{
+    display:inline-block;
+}
+.dropdown-content{     /*  It is hidden by default 不會顯示在網頁的檢查裡 */
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgb(0,0,0,0.2)s;
+    z-index:1;
+}
+.dropdown-content a{
+    color:black;
+    padding:10px 14px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+}
+.dropdown-content a:hover{
+    background-color: #fff4c1;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+li.email{
+    float: right;
+}
+
+/*link連結的改變*/
+
+a:link{
+    color:white;
+}
+
+
+a:hover{
+    color:#5151A2;
+}
+
+a:active{
+    color:blue;
+}
+
+
